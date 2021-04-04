@@ -35,3 +35,14 @@ Entrypoint application = js/application-e88c6c3304a15e6886b6.js js/application-e
 Completed 200 OK in 4949ms (Views: 4940.7ms | ActiveRecord: 0.0ms | Allocations: 1437400)
 
 
+Started GET "/" for ::1 at 2021-04-04 16:30:09 +0900
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/_side_bar.html.erb (Duration: 0.9ms | Allocations: 86)
+  Rendered messages/_main_chat.html.erb (Duration: 0.3ms | Allocations: 82)
+  Rendered messages/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 716)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 38.7ms | ActiveRecord: 0.0ms | Allocations: 8811)
+
+
