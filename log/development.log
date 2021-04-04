@@ -10,3 +10,28 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 29ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 2899)
 
 
+Started GET "/" for ::1 at 2021-04-04 13:23:37 +0900
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 202)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/takaihiroko/projects/chat-app/public/packs
+[Webpacker] Hash: ef270c56fa66020c9089
+Version: webpack 4.46.0
+Time: 1752ms
+Built at: 2021/04/04 13:23:42
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e88c6c3304a15e6886b6.js    124 KiB  application  [emitted] [immutable]  application
+js/application-e88c6c3304a15e6886b6.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e88c6c3304a15e6886b6.js js/application-e88c6c3304a15e6886b6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4949ms (Views: 4940.7ms | ActiveRecord: 0.0ms | Allocations: 1437400)
+
+
